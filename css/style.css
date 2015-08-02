@@ -14,7 +14,7 @@ header{
 	top: 0px;
 	z-index: 5;
 	text-align: center;
-
+	background: black;
 }
 
 footer{
@@ -32,20 +32,29 @@ nav{
 	background:blue;
 	position: fixed;
 	top: 0px;
-	z-index: -5;
 	float: left;
 }
 
 nav ul{
-	margin-top: 80%;
-	margin-left: -10%
+	margin-top: 15vh;
+	padding: 0px;
 }
 
 nav ul li{
 	list-style: none;
 	font-family: verdana;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 22px;
+	padding:5px;
+}
+
+nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	background: rgb(0,150,255);
+	color: black
 }
 
 #container{
