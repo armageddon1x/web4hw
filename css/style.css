@@ -1,4 +1,5 @@
-/*{border:solid 1px white;}*/
+/*all structure tags for main page*/
+*{margin: 0px;padding: 0px;}
 
 body{
 	margin: 0px;
@@ -14,24 +15,35 @@ header{
 	top: 0px;
 	z-index: 5;
 	text-align: center;
-	background: black;
-}
+	background: rgb(30, 30, 30);
+	font-size: 80px;
+	font-family: arial;
+	font-weight: bold;
+	color: rgb(233, 233, 233)
+	}
 
 footer{
 	width: 100%;
-	height: 5%;
-	background: red;
+	background: rgb(26, 26, 128);
 	text-align: center;
+	padding: 10px 0px;
 	clear: both;
+}
+
+p{
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin: 0px;
+	line-height: 25px
 }
 
 nav{
 	width: 10%;
 	height:100vh;
-	background:blue;
+	background:rgb(0,150,255);
 	position: fixed;
 	top: 0px;
-	z-index: -1
 }
 
 nav ul{
@@ -43,7 +55,7 @@ nav ul li{
 	list-style: none;
 	font-family: verdana;
 	font-size: 22px;
-	padding:5px;
+	padding:10px 5px;
 }
 
 nav ul a{
@@ -52,30 +64,53 @@ nav ul a{
 }
 
 nav ul li:hover{
-	background: rgb(0,150,255);
-	color: black
+	background: rgb(25,25,255);
+	font-weight: bold;
+	border-right: 20px solid black;
 }
 
 #container{
 	width: 80%;
-	background: white;
+	background: rgb(48, 48, 48);
 	float: left;
 	margin-top: 15vh;
 	margin-left: 10%;
-	color: black;
-}
-
-p{
-	padding: 30px;
-	margin: 0px;
+	color: rgb(234, 193, 255);
+	font-family: arial;
+	font-size: 16px;
+	padding-top: 30px;
 }
 
 #rightbar{
 	width: 10%;
 	height: 100vh;
-	background: green;
+	background: rgb(238, 238, 238);
 	position: fixed;
 	top: 0px;
 	right: 0%;
-	z-index: -1;
+	padding-top: 15vh;
 }
+
+/*.icon{
+	margin: 10px auto;
+	display: block;*/
+}
+
+div ul{
+	padding-left: 0px;
+	text-align: center;
+}
+
+div ul a li{
+	list-style: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+div ul li:hover{
+	background: rgb(119, 119, 119);
+}
+
+/*end of structure tags for main page*/
+
