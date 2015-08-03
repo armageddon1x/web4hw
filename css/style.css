@@ -43,8 +43,8 @@ nav{
 	top: 0px;
 }
 nav ul{
-	margin-top: 15vh;
 	padding: 0px;
+	border-top: 15vh solid rgb(26, 26, 128);
 }
 nav ul li{
 	list-style: none;
@@ -79,7 +79,7 @@ nav ul li:hover{
 	position: fixed;
 	top: 0px;
 	right: 0%;
-	padding-top: 15vh;
+	border-top: 15vh solid rgb(26, 26, 128);\
 }
 div ul{
 	padding-left: 0px;
@@ -93,7 +93,7 @@ div ul a li{
 }
 div ul a li img{
 	border: solid 2px rgb(50,50,50);
-	width: 60px;
+	width: 55px;
 }
 div ul li:hover{
 	background: rgb(119,119,119);
@@ -104,12 +104,27 @@ div ul li:hover{
 h1,h3{
 	text-align: center;
 	padding: 20px 0px;
+	background: rgb(76, 31, 76);
+	margin-bottom: 20px;
 }
 
 .twin_column{
-	width: 40%;
+	width: 45%;
 	position: relative;
-	background: blue;
+	background: rgba(51, 102, 255, .2);
 	float: left;
 	display: inline-block;
+	margin: 0 2.5%;
+	margin-top: 30px;
+}
+
+.thrice_column{
+	width: 30%;
+	position: relative;
+	background: rgba(51, 102, 255, .2);
+	float: left;
+	display: inline-block;
+	margin: 0 2.5%;
+	margin-top: 30px;
+	height: 200px;
 }
