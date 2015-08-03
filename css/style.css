@@ -101,3 +101,15 @@ div ul li:hover{
 
 /*end of structure tags for main page*/
 
+h1,h3{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.twin_column{
+	width: 40%;
+	position: relative;
+	background: blue;
+	float: left;
+	display: inline-block;
+}
