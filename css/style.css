@@ -75,7 +75,7 @@ nav ul li:hover{
 #rightbar{
 	width: 10%;
 	height: 100vh;
-	background: rgb(238, 238, 238);
+	background: rgb(200, 200, 255);
 	position: fixed;
 	top: 0px;
 	right: 0%;
@@ -88,11 +88,16 @@ div ul{
 div ul a li{
 	list-style: none;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 6px;
+	padding-top: 13px;
+	padding-bottom: 9px;
+}
+div ul a li img{
+	border: solid 2px rgb(50,50,50);
+	width: 60px;
 }
 div ul li:hover{
-	background: rgb(119, 119, 119);
+	background: rgb(119,119,119);
 }
+
 /*end of structure tags for main page*/
 
