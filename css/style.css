@@ -28,6 +28,7 @@ footer{
 	position: relative;
 	z-index: 3;
 }
+a{text-decoration: none;}
 p{
 	padding: 20px 30px;
 	margin: 0px;
@@ -128,4 +129,34 @@ hr{
 	display: inline-block;
 	margin: 0 1.6666%;
 	margin-bottom: 30px;
+}
+
+.image_section{
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	padding-top: 30px;
+}
+
+.gallery{
+	width: 20%;
+	border: 2px solid rgb(0, 255, 255);
+	margin: 0px 1.5%;
+}
+
+.caption_section{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.caption{
+	width: 20%;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 1.5%;
+	border: 2px solid purple;
+	background: purple;
+	padding: 2px 0px;
 }
