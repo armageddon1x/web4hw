@@ -1,5 +1,9 @@
 /*all structure tags for main page*/
-*{margin: 0px;padding: 0px;}
+*{
+	margin: 0px;
+	padding: 0px;
+	font: verdana;
+}
 body{
 	margin: 0px;
 	padding: 0px;
@@ -159,4 +163,36 @@ hr{
 	border: 2px solid purple;
 	background: purple;
 	padding: 2px 0px;
+}
+
+form p{
+	display: inline-block;
+	width: 20%;
+	padding: 15px;
+	padding-left: 60px;
+	padding-bottom: 20px
+}
+form input{
+	padding: 5px;
+	font-family: verdana;
+	color: white;
+	background: rgb(25,25,25);
+}
+form textarea{
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: verdana;
+	color: white;
+	background: rgb(25,25,25);
+	font-size: 18px;
+}
+.form_container{
+	width: 50%;
+	display: inline-block;
+	float:left;
+	margin-bottom: 30px;
+}
+.inline{
+	display: inline-block;
+	text-align: center;
 }
